@@ -1,0 +1,82 @@
+<div class="animated fade-in">
+    <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header">
+              <i class="fa fa-edit"></i>Os campos marcados com (*) são obrigatórios
+            </div>
+            <div class="card-body">
+              <form class="form-horizontal">
+              <div class="form-group">
+                <label class="col-form-label" for="prependedInput">Nome *</label>
+                <div class="controls">
+                  <div class="input-prepend input-group">
+                    <input id="prependedInput" class="form-control" size="250" type="text">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-form-label" for="prependedInput">E-mail *</label>
+                <div class="controls">
+                  <div class="input-prepend input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">@</span>
+                    </div>
+                    <input id="prependedInput" class="form-control" size="16" type="text">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-form-label" for="appendedInput">Sexo *</label>
+                <div class="controls">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-intersex"></i></span>
+                      </div>
+                      <select class="form-control" id="gender" required>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                      </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-form-label" for="appendedPrependedInput">Data de Nascimento *</label>
+                <div class="controls">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-birthday-cake"></i></span>
+                        </div>
+                        <input class="form-control" id="date-input" type="date" name="date-input" placeholder="Nascimento">
+                    </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-form-label" for="appendedInputButton">Perfil *</label>
+                <div class="controls">
+                  <div class="input-group">
+                    <select id="multiple-select" name="multiple-select" class="form-control" size="5" multiple>
+                        <option value="1">Option #1</option>
+                        <option value="2">Option #2</option>
+                        <option value="3">Option #3</option>
+                        <option value="4">Option #4</option>
+                        <option value="5">Option #5</option>
+                        <option value="6">Option #6</option>
+                        <option value="7">Option #7</option>
+                        <option value="8">Option #8</option>
+                        <option value="9">Option #9</option>
+                        <option value="10">Option #10</option>
+                      </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+                <button class="btn btn-secondary" type="button">Cancelar</button>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div> <!--/.col-->
+      </div>    
+</div>
